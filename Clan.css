@@ -1,0 +1,543 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+  margin: 0%;
+  padding: 0%;
+  background-color: darksalmon;
+   
+ 
+}
+.head h1{
+    width: 30%;
+    align-items: center;
+    padding: 80px;
+    padding-left: 100px;
+    float: left;
+     
+     
+}
+.head1{
+    text-align: center;
+    float: right;
+    padding-right: 20px;
+     
+     
+}
+.head1 ul{
+    display: inline-block;
+    list-style-type: none;
+    padding: 90px;
+}
+.head1 ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.head1 ul li a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.head1 ul li a:hover{
+    color: black;
+}
+.head1 ul li a:active{
+    background-color: blue;
+}
+.head2{
+    width: 50%;
+    height: 400px;
+    padding-left: 80px;
+    float: left;
+   
+     
+}
+.head2 h1{
+    font-size: 30px;
+    color:white;
+}
+.head2 h1{
+    font-weight: bold;
+    color: papayawhip;
+}
+.head2 button{
+    align-items: center;
+    background-color:orange;
+    padding: 8px 20px;
+    margin: 0px 0px;
+    border-radius: 20px;
+}
+.head3{
+    width: 50%;
+    height: 400px;
+    float: left;
+     
+}
+.prev, .next {
+   
+    position: absolute;
+    top: 50%; 
+    padding: 16px;
+    margin-top: 40px;
+    color: white;
+    user-select: none;
+  }
+  .next {
+    right: 0;  
+  }
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: black;
+  } 
+  .head4{
+      padding-left: 80px; 
+    }
+.head4 ul{
+    padding: 40px;
+    display: inline-block;     
+} 
+.head4 ul li{
+    display: inline-block;
+    padding: 60px;
+}
+.head5 h1{
+    text-align: center;     
+}
+.head6{
+    width: 50%;
+    padding-left: 80px;   
+    float: left;
+}
+.head7{
+    width: 50%;
+    height: 340px;
+    float: right;
+    padding-right: 80px;
+       
+}
+.head7 h1{
+    padding: 10px;
+    font-weight: bold;
+}
+.head7 h3{
+    padding: 10px;
+    font-weight: lighter;
+}
+.head7 h5{
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.head8{
+    width: 50%;
+    height: 340px;
+    float: left;
+    padding-left: 80px;    
+}
+.head8 h1{
+    padding: 10px;
+    font-weight: bold;
+}
+.head8 h3{
+    padding: 10px;
+    font-weight: lighter;
+}
+.head8 h5{
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.head9{
+    width: 50%;
+    padding-right: 80px;
+   float: right;
+}
+
+.head10{
+    width: 50%;
+    padding-left: 80px;
+    float: left;
+}
+.head11{
+    width: 50%;
+    height: 340px;
+    float: right;
+    padding-right: 80px;
+     
+}
+.head11 h1{
+    padding: 10px;
+    font-weight: bold;
+}
+.head11 h3{
+    padding: 10px;
+    font-weight: lighter;
+}
+.head11 h5{
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.head12{
+    width: 50%;
+    height: 340px;
+    float: left;
+    padding-left: 80px;
+}
+.head12 h1{
+    padding: 10px;
+    font-weight: bold;
+}
+.head12 h3{
+    padding: 10px;
+    font-weight: lighter;
+}
+.head12 h5{
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.head13{
+    width: 50%;
+    padding-right: 80px;
+   float: right;
+}
+
+.head14{
+    width: 50%;
+    height: 340px;
+    padding-left: 80px;   
+    float: left;
+}
+.head15{
+    width: 50%;
+    height: 340px;
+    float: right;
+    padding-right: 80px;     
+}
+.head15 h1{
+    padding: 10px;
+    font-weight: bold;
+}
+.head15 h3{
+    padding: 10px;
+    font-weight: lighter;
+}
+.head15 h5{
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.head16{
+    width: 50%;
+    height: 340px;
+    float: left;
+    padding-left: 80px; 
+}
+.head17{
+    width: 50%;
+    padding-right: 80px;
+    float: right;
+}
+.head17 h1{
+    padding: 10px;
+    font-weight: bold;
+}
+.head17 h3{
+    padding: 10px;
+    font-weight: lighter;
+}
+.head17 h5{
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.head18{
+    padding-left: 80px;
+    text-align: center;
+}
+.head19{
+    padding-left: 80px;
+}
+.head19 ul{
+    display: inline-block;
+    list-style-type: none;
+}
+.head19 ul li{
+    display: inline-block;
+    padding: 60px;
+    
+}
+.head20{
+    padding-left: 80px;
+     
+}
+.head20 ul{
+    display: inline-block;
+    list-style-type: none;
+}
+.head20 ul li{
+    display: inline-block;
+    padding: 60px;
+}
+.head21{
+    padding-left: 80px;
+     
+}
+.head21 ul{
+    display: inline-block;
+    list-style-type: none;
+}
+.head21 ul li{
+    display: inline-block;
+    padding: 60px;
+}
+.head22{
+    text-align: center;
+    background-color: cornsilk;
+}
+.head22 h3{
+    font-weight: lighter;
+}
+.head23{
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: cornsilk;
+    width: 100%;
+    height: 500px;
+}
+.head23 ul{
+    display: inline-block;
+    list-style-type: none;
+}
+.head23 ul li{
+    display: inline-block;
+    padding: 10px;
+}
+.head24{
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: 1px;
+}
+.head24 h1{
+    text-align: center;
+}
+.head24 ul{
+    display: inline-block;
+    list-style-type: none;
+}
+.head24 ul li{
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    background-color: cornsilk;
+}
+.head25{
+    padding-left: 80px;
+    padding-right: 80px;
+    height: 400px;
+}
+.head25 h3{
+    font-weight: lighter;
+    text-align: center;
+}
+.head25 h1{
+    text-align: center;
+}
+.head25 ul{
+    display: inline-block;
+    list-style-type: none;
+    background-color: cornsilk;
+}
+.head25 ul li{
+    display: inline-block;
+}
+.head26{
+    padding-left: 80px;
+    padding-right: 50px;
+}
+.head26 ul{
+    height: 600px;
+        display: inline-block;
+        list-style-type: none;
+         
+}
+.head26 ul li{
+    display: inline-block;
+    padding: 10px;
+}
+.head26 ul li h1{
+    font-size: 20px;
+}
+.head26 ul li h3{
+    font-weight: lighter;
+    
+}
+.head27{
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+    background-color: lightblue;
+    height: 150px;
+}
+.head27 h3{
+        font-weight: lighter;
+}
+.head28{
+    padding-right: 80px;
+    padding-left: 80px;
+    list-style-type: none;
+    height: 1000px;
+     
+}
+.head28 h1{
+    color: gold;
+}
+.head28 h3{
+    font-weight: lighter;
+}
+.slider{
+    width: 1200px;
+    height: 100%;
+    overflow: hidden;
+    margin-top: 60px;
+  
+}
+
+.slides{
+    width: 540%;
+    height: 100%;
+    display: flex;
+ 
+}
+
+.slides input{
+  display: none;
+}
+
+.slide{
+   
+  height: 100%;
+}
+
+.slide img{
+   width: 100%;
+   height: 700px;
+}
+
+/*css for manual slide navigation*/
+.navigation-manual{
+    position: absolute;
+    width: 800px;
+    margin-top: -383px;
+    display: flex;
+    justify-content: center;
+    padding-left: 200px;
+  }
+  .manual-btn{
+    border: 2px solid #40D3DC;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+  }
+  .manual-btn:not(:last-child){
+    margin-right: 5px;
+  }
+  .manual-btn:hover{
+    background: #40D3DC;
+  }
+  #radio1:checked ~ .first{
+    margin-left: 0;
+  }
+  #radio2:checked ~ .first{
+    margin-left: -20%;
+  }
+  
+  #radio3:checked ~ .first{
+    margin-left: -40%;
+  }
+
+  /*css for automatic navigation*/
+
+.navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-top: 617px;
+    padding-left: 200px;
+  }
+  .navigation-auto div{
+    border: 2px solid #40D3DC;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+  }
+  .navigation-auto div:not(:last-child){
+    margin-right: 5px;
+  }
+  #radio1:checked ~ .navigation-auto .auto-btn1{
+    background: #40D3DC;
+  }
+  #radio2:checked ~ .navigation-auto .auto-btn2{
+    background: #40D3DC;
+  }
+  
+  #radio3:checked ~ .navigation-auto .auto-btn3{
+    background: #40D3DC;
+  }
+  
+  #radio4:checked ~ .navigation-auto .auto-btn4{
+    background: #40D3DC;
+  }
+.head29{
+    padding-left: 80px;
+    padding-right: 80px;
+    height: 150%;
+    
+}
+.head29 h1{
+    color:turquoise;
+}
+.head29 h3{
+    font-weight: lighter;
+}
+.head29 ul{
+    display: inline-block;
+    list-style-type: none;
+}
+.head29 ul li{
+    display: inline-block;
+}
+.head30{
+    padding-left: 80px;
+    padding-right: 80px;
+    height: 80px;
+    background-color:darkgrey
+}
+.head30 h1{
+    font-size: 20px;
+}
+.head30 h3{
+    font-weight: lighter;
+    font-size: 15px;
+    
+}
+.head30 ul{
+    display: inline-block;
+    list-style-type: none;
+    line-height: 80px;
+}
+.head30 ul li{
+    display: inline-block;
+    padding: 10px 100px;
+}
+.head31{
+    padding-right: 30px;
+    padding-left: 50px;
+    background-color:darkgrey;
+}
+.head31 ul{
+    display: inline-block;
+    list-style-type: none;
+}
+.head31 ul li{
+    display: inline-block;
+    padding: 10 50px;
+}
